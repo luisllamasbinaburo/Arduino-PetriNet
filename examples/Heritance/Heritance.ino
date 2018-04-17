@@ -30,6 +30,11 @@ enum Input
 
 Input input;
 
+// Declaradas aqui porque vamos a usarlo en nuestra clase
+void printMarkup();
+void activateTimer();
+bool timerExpired();
+
 // Definicion de la red de petri del ejemplo
 class MyPetriNet : public PetriNet
 {
@@ -90,6 +95,7 @@ public:
 	}
 };
 
+// Instancia de nuestra re
 MyPetriNet petriNet;
 
 void setup()
