@@ -1,0 +1,25 @@
+#######################################
+# Syntax Coloring Map PetriNet
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+PetriNet	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+ClearMarks	KEYWORD2
+Update	KEYWORD2
+SetTransition	KEYWORD2
+SetTransitionInputs	KEYWORD2
+SetTransitionOutputs	KEYWORD2
+SetTransitionAction	KEYWORD2
+SetTransitionCondition	KEYWORD2
+SetMarkup	KEYWORD2
+GetMarkup	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
